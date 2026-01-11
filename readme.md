@@ -6,6 +6,8 @@
 
 I recently found the source code again, and I’m publishing it as a **personal relic** — a snapshot of how I used to think and build software back then.
 
+The main VB6 form (UI logic, translation routine, and image handling) lives in [files/Main.frm](files/Main.frm) if you want to inspect or tinker with the original code.
+
 ## What it does
 
 BMay takes a **base-10 (decimal) integer** as input and converts it to **base 20**, then displays each resulting digit using **bitmap symbols (0–19)** to represent a “Mayan-style” rendering.
